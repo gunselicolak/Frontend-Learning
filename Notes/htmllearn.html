@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bu sayfanın başlığıdır.</title>
+    <script type="text/javascript">
+      function olay(durum){
+        alert(durum);
+      }
+
+    </script>
+  </head>
+  <body onload="olay('sayfa yüklendi')" onunload="olay('sayfamız yüklenemedi')">
+    <h1 style="color:brown">Bu bir büyük başlıktır</h1>
+    <p id="pelemanikimliği" class="belirlibirsinif">bu bir paragraftır</p>
+
+    <h1 onclick="olay('Büyük başlığa tıklandı')">en büyük başlık</h1>
+    <h2>ikinci büyük başlık</h2>
+    <hr>
+    <h3 class="belirlibirsinif">üçüncü büyük başlık</h3>
+    <hr>
+    <h6 oncopy= "olay('yazıyı kopyaladınız')">en küçük başlık</h6>
+
+    <a href="https://www.instagram.com/gunselicolak/">bu bir linktir</a>
+
+    <img src="https://scontent-atl3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.180.1440.1440a/s640x640/101098618_931292007311351_447181173248266290_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=111&_nc_ohc=ftDiSHpMrO8AX9t5LNl&oh=36feb3b087f36683cc1ec39c09da91e8&oe=5F085EB7" alt="" height="30px"/>
+
+    <br>
+    <img src="1-1.jpg" alt="" width="100%" height="200px" />
+
+    <button type="button" name="button">bu bir butondur</button>
+
+    <ul style="list-style-type: circle;">
+      <li ondblclick="olay('bu öğeye çift tıklandı')">birinci sırasız liste elemanı</li>
+      <li>ikinci sırasız liste elemanı</li>
+      <li>üçüncü sırasız liste elemanı</li>
+    </ul>
+
+      <hr>
+
+    <ol type="1" start="23">
+      <li>birinci sıralı liste elemanı</li>
+      <li>ikinci sıralı liste elemanı</li>
+      <ul style="list-style-type: circle;">
+        <li ondblclick="olay('bu öğeye çift tıklandı')">birinci sırasız liste elemanı</li>
+        <li>ikinci sırasız liste elemanı</li>
+        <li>üçüncü sırasız liste elemanı</li>
+      </ul>
+      <li>üçüncü sıralı liste elemanı</li>
+    </ol>
+
+    <dl class="">
+      <dt>Merhaba</dt>
+      <dd>=>bir selamlama cümlesidir</dd>
+      <dt>Hi</dt>
+      <dd>=>ingilizce bir selamlama cümlesidir</dd>
+    </dl>
+
+    <p>
+      bu bir paragraftır
+      <br>bu ikinci bir satır olarak gelmeyecek<br>
+      <br>tek satır halinde yazılacak
+    </p>
+
+    <p>bu bir pargraf yazısıdır</p>
+    <hr>
+    <p>bu bir paragraf yazısıdır</p>
+    <br>
+    <p>bu bir paragraf yazısıdır</p>
+
+    <pre>
+      buraya da istediğiniz kadar yazı yazılabilir
+      bu yazıyı biraz öne alır
+      yeni satırlar eklenebilir
+    </pre>
+
+    <table>
+      <tr>
+        <th>birinci başlık</th>
+        <th>ikinci başlık</th>
+        <th>üçünçü başlık</th>
+      </tr>
+      <tr>
+        <td>birinci veri</td>
+        <td>ikinci veri</td>
+        <td>üçünçü veri</td>
+      </tr>
+      <tr>
+        <td>birinci data</td>
+        <td>ikinci data</td>
+        <td>üçüncü data</td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form class="" action="https://google.com" method="get" enctype="multipart/form-data">
+
+      <label for="">Kullanıcı Adı *</label>
+      <input type="text" name="kullnicidi" placeholder="Kullanıcı Adınızı Giriniz" required/>
+      <input type="hidden" name="kaynak" value="chrome ile giriş yapıldı">
+      <br>
+      <label for="">Şifre</label>
+      <input type="password" name="şifre" value="" autofocus/>
+      <br>
+      <label for="">Profil Resmi</label>
+      <input type="file" name="" value="">
+      <br>
+      <input type="checkbox" name="" value="">kullanıcı sözleşmesini kabul ediyorum
+      <br>
+      <input type="tel" name="telefon" value="555444666611" readonly>
+      <br>
+
+      <input list="datalistesi"type="" name="" value="">
+      <datalist id="datalistesi" class="">
+        <option value="mehmet">
+        <option value="emine">
+        <option value="ışıl">
+        <option value="günseli">
+      </datalist>
+
+      <br>
+      <select class="" name="">
+        <option value="deger1">Görülen Değer 1</option>
+        <option value="deger2">Görülen Değer 2</option>
+        <option value="deger3">Görülen Değer 3</option>
+      </select>
+
+      <br>
+      <input type="submit" name="" value="Giriş yap"/>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <b>bu bir kalın yazıdır</b><br>
+    <strong>bu bir güçlü yazıdır önemli yazıdır</strong><br>
+    <i>bu italik şekilde yazı yazdırır</i><br>
+    <em>bu yazı bu şekilde gelir</em><br>
+    <mark>bu işaretlenmiş bir yazıdır</mark><br>
+    <del>bu üstü çizilmiş bir yazıdır</del><br>
+    <ins>bu bir altı çizili yazıdır</ins><br>
+    <p>bu yazının üstüne <sup>üst yazı eklenir</sup> veya altına <sub>alt yazı eklenir</sub></p><br>
+    <small>bu biraz daha küçük </small> yazıdır <br>
+
+    <br>
+
+    <address class="">
+      bu bir adress block elemtidir
+    </address>
+
+    <div class="">
+      bu bir div elemtidir(bölmelemdirme/kısımlandırma)
+    </div>
+
+    <a href="https://google.com">bu bir satır içi (inline)</a>
+
+    <span>bu bir satır içi önemli elementidir</span>
+
+
+  </body>
+</html>

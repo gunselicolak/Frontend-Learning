@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 10px 10px -10px grey;
+  position: fixed;
+  z-index: 2;
+  background-color: #fff;
+
+}
+
+.logo {
+  height: 100%;
+  width: 75px;
+  cursor: pointer;
+}
+
+.navbar-items {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: 'Mansalva', cursive;
+  font-size: 25px;
+  transition: all .2s linear;
+}
+
+.navbar-items:hover{
+  background-color:  #000000;
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 5px solid indianred;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+.card{
+  width: 50%;
+  height: 600px;
+  background: url('https://picsum.photos/600/600');
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px) grayscale(100%);
+  transition: all .3s linear;
+  cursor: pointer;
+}
+
+.card:hover{
+  filter: none;
+}
